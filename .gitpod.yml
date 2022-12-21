@@ -1,7 +1,8 @@
 tasks:
-  - init: /workspace/rustlings/install.sh
+  - init: /workspace/rustlings/install.sh && /workspace/.cargo/bin/rustlings lsp
     command: /workspace/.cargo/bin/rustlings watch
 
 vscode:
   extensions:
-    - rust-lang.rust@0.7.8
+    - rust-lang.rust-analyzer
+
